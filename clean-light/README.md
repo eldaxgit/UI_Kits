@@ -10,4 +10,7 @@ A minimal and elegant UI kit built with HTML and CSS. Designed to showcase simpl
 
 ## 📷 Preview
 
-![Clean Light Preview](./clean-light/preview.png)
+![Clean Light Preview](./clean-light/preview.png)  
+📁 [`/clean-light`](./clean-light)
+
+---
