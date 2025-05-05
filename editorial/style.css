@@ -1,0 +1,75 @@
+/* Base */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+/* Typography Headings */
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #fefefe;
+}
+
+.navbar a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.75rem;
+  font-family: "Playfair Display", serif;
+}
+
+/* Container */
+.container {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Article */
+.article-card {
+  max-width: 700px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+}
+
+.article-card h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.article-card p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.read-link {
+  font-weight: 500;
+  color: #0050a0;
+  text-decoration: none;
+}
+
+.read-link:hover {
+  text-decoration: underline;
+}
