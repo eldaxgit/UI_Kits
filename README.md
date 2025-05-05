@@ -1,6 +1,6 @@
 # 🎨 UI_Kits
 
-A curated collection of minimalist and elegant UI component kits — built with clean HTML and CSS.  
+A collection of minimalist and elegant UI component kits — built with clean HTML, CSS, Tailwind CSS and JavaScript.  
 Each kit explores a different design theme and focuses on readability, layout, and usability.
 
 ---
