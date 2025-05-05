@@ -10,7 +10,6 @@ Includes:
 
 ## 📷 Preview
 
-![Soft Pastel Preview](./preview.png)  
-📁 [`/soft-pastel`](./soft-pastel)
+![Soft Pastel Preview](./preview.png)
 
 ---

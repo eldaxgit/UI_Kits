@@ -10,7 +10,6 @@ Includes:
 
 ## 📷 Preview
 
-![Modern Dark Preview](./preview.png)  
-📁 [`/modern-dark`](./modern-dark)
+![Modern Dark Preview](./preview.png)
 
 ---

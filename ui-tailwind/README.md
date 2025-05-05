@@ -11,8 +11,7 @@ This is a simple, responsive webpage that features a navigation bar, a set of re
 
 ## 📷 Preview
 
-![UI Tailwind CSS Preview](./preview.png)  
-📁 [`/ui-tailwind`](./ui-tailwind)
+![UI Tailwind CSS Preview](./preview.png)
 
 ---
 

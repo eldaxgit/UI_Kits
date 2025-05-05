@@ -16,6 +16,17 @@ Each UI kit includes:
 
 ---
 
+### 🖌️ Responsive Cards with Tailwind CSS
+
+This is a simple, responsive webpage that features a navigation bar, a set of responsive cards, and a modal. The project is built using Tailwind CSS and JavaScript. The layout adjusts seamlessly for mobile, tablet, and desktop views.
+
+## 📷 Preview
+
+![UI Tailwind CSS Preview](./ui-tailwind/preview.png)
+📁 [`/ui-tailwind`](./ui-tailwind)
+
+---
+
 ### 🧼 Clean Light
 
 A crisp, white-based theme with bold contrast and subtle UI elements. Great for modern dashboards and web apps.

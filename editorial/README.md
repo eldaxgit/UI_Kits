@@ -10,7 +10,6 @@ Includes:
 
 ## 📷 Preview
 
-![Editorial Preview](./preview.png)  
-📁 [`/editorial`](./editorial)
+![Editorial Preview](./preview.png)
 
 ---
