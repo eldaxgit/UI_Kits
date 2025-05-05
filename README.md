@@ -60,3 +60,22 @@ Each folder is standalone. Open any `index.html` in your browser to preview the 
 cd modern-dark
 open index.html
 ```
+
+🧠 Purpose
+
+UI_Kits is a personal project designed to:
+
+Practice clean UI/UX design systems
+
+Share reusable front-end components
+
+Showcase visual styles for interfaces
+
+Feel free to fork, remix, or use elements with credit.
+
+📄 License
+
+MIT License — open for use with credit.  
+See the full [LICENSE](./LICENSE) for more details.
+
+Fonts are provided by [Google Fonts](https://fonts.google.com/).
