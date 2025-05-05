@@ -9,6 +9,8 @@ This is a simple, responsive webpage that features a navigation bar, a set of re
 - **Modal:** The modal can be opened and closed using buttons. It adjusts in size based on the screen size.
 - **Tailwind CSS:** The entire layout is styled using Tailwind CSS for a utility-first approach to design.
 
+![UI Tailwind CSS Preview](./ui-tailwind/preview.png)
+
 ## Technologies Used
 
 - **HTML5**
