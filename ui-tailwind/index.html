@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Cards</title>
+
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white font-sans leading-normal tracking-normal">
+    <!-- Navbar -->
+    <nav class="bg-slate-900 p-4 w-full z-10 top-0 left-0">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-white text-2xl font-bold">Responsive Cards</div>
+
+        <!-- Mobile Menu Button -->
+        <div class="block lg:hidden">
+          <button id="menuToggle" class="text-white focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu (Off-Canvas) -->
+        <div
+          id="mobileMenu"
+          class="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-20 transform -translate-x-full transition-transform"
+        >
+          <div class="bg-slate-900 text-white w-2/3 h-full p-6">
+            <div class="flex justify-between items-center">
+              <div class="text-xl font-bold">Responsive Cards</div>
+              <button id="closeMenu" class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 space-y-4">
+              <a href="#" class="block text-white text-lg hover:text-rose-500"
+                >Home</a
+              >
+              <a href="#" class="block text-white text-lg hover:text-rose-500"
+                >About</a
+              >
+              <a href="#" class="block text-white text-lg hover:text-rose-500"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex space-x-4">
+          <a href="#" class="text-white hover:text-rose-500">Home</a>
+          <a href="#" class="text-white hover:text-rose-500">About</a>
+          <a href="#" class="text-white hover:text-rose-500">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Card Section -->
+    <section class="my-10 px-4">
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <!-- Card 1 -->
+        <div
+          class="bg-rose-500 shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+        >
+          <img
+            src="https://placehold.co/400"
+            alt="Card Image"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-sky-950">
+              Modern Card Design
+            </h3>
+            <p class="text-white mt-2">
+              A beautiful card component with hover effects built using Tailwind
+              CSS.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-sky-950 text-white rounded-full hover:bg-rose-800 transition-colors"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-amber-500 shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+        >
+          <img
+            src="https://placehold.co/400"
+            alt="Card Image"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-sky-950">Tailwind UI Kit</h3>
+            <p class="text-white mt-2">
+              Explore the power of utility-first design with Tailwind CSS.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-sky-950 text-white rounded-full hover:bg-amber-800 transition-colors"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="bg-teal-600 shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+        >
+          <img
+            src="https://placehold.co/400"
+            alt="Card Image"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-sky-950">
+              Advanced UI Components
+            </h3>
+            <p class="text-white mt-2">
+              Build powerful, reusable UI components with ease using Tailwind
+              CSS.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-sky-950 text-white rounded-full hover:bg-teal-800 transition-colors"
+            >
+              Discover More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      id="myModal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden"
+    >
+      <div class="bg-gray-200 p-8 rounded-lg w-11/12 sm:w-1/2 md:w-1/3">
+        <h2 class="text-2xl font-semibold text-sky-950">This is a Modal!</h2>
+        <p class="text-sky-900 mt-4">
+          Click the button below to close the modal.
+        </p>
+        <button
+          id="closeModal"
+          class="mt-6 px-6 py-2 bg-sky-950 text-white rounded-full hover:bg-sky-800"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal Trigger -->
+    <div class="text-center mt-10">
+      <button
+        id="openModal"
+        class="px-6 py-3 bg-sky-950 text-white rounded-full hover:bg-sky-800 transition-all"
+      >
+        Open Modal
+      </button>
+    </div>
+
+    <script>
+      // Mobile Menu functionality
+      const menuToggle = document.getElementById("menuToggle");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const closeMenu = document.getElementById("closeMenu");
+
+      // Open menu
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.remove("-translate-x-full");
+        mobileMenu.classList.add("translate-x-0");
+      });
+
+      // Close menu
+      closeMenu.addEventListener("click", () => {
+        mobileMenu.classList.remove("translate-x-0");
+        mobileMenu.classList.add("-translate-x-full");
+      });
+
+      // Modal functionality
+      document
+        .getElementById("openModal")
+        .addEventListener("click", function () {
+          document.getElementById("myModal").classList.remove("hidden");
+        });
+
+      document
+        .getElementById("closeModal")
+        .addEventListener("click", function () {
+          document.getElementById("myModal").classList.add("hidden");
+        });
+    </script>
+  </body>
+</html>
