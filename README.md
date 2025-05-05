@@ -56,11 +56,6 @@ A content-first design inspired by editorial layouts. Features serif typography,
 
 Each folder is standalone. Open any `index.html` in your browser to preview the kit.
 
-```bash
-cd modern-dark
-open index.html
-```
-
 🧠 Purpose
 
 UI_Kits is a personal project designed to:
