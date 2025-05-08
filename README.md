@@ -16,6 +16,17 @@ Each UI kit includes:
 
 ---
 
+### 📰 Responsive Landiing page with Tailwind CSS
+
+A simple, modern, and responsive landing page template designed using HTML, CSS, and Tailwind CSS. This template can be easily customized for various use cases such as newsletters, marketing pages, or promotional content.
+
+## 📷 Preview
+
+![Landing page Preview](./landing_page/preview.png)
+📁 [`/landing_page`](./landing_page)
+
+---
+
 ### 🖌️ Responsive Cards with Tailwind CSS
 
 This is a simple, responsive webpage that features a navigation bar, a set of responsive cards, and a modal. The project is built using Tailwind CSS and JavaScript. The layout adjusts seamlessly for mobile, tablet, and desktop views.
