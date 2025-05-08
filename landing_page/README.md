@@ -1,4 +1,4 @@
-## 📰 Editorial UI Kit
+## 📰 Landing page template
 
 A simple, modern, and responsive landing page template designed using HTML, CSS, and Tailwind CSS. This template can be easily customized for various use cases such as newsletters, marketing pages, or promotional content.
 
@@ -51,13 +51,13 @@ No additional installation is required as this template relies on external links
 
 ## Customization
 
-Logo: Replace the BrandLogo text inside the <h1> tag with your own logo text or use an image.
+Logo: Replace the BrandLogo text inside the &lt;h1&gt; tag with your own logo text or use an image.
 
-Links: Modify the navigation links in the <nav> section to link to your website's pages.
+Links: Modify the navigation links in the &lt;nav&gt; section to link to your website's pages.
 
 Form Action: Update the form action URL to link it to your email marketing platform or a backend server.
 
-Background Image: Change the href attribute in the <image> tag to your desired image URL.
+Background Image: Change the href attribute in the &lt;image src="image.jpg"&gt; tag to your desired image URL.
 
 ## Files
 
