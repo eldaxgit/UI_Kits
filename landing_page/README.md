@@ -57,7 +57,7 @@ Links: Modify the navigation links in the &lt;nav&gt; section to link to your we
 
 Form Action: Update the form action URL to link it to your email marketing platform or a backend server.
 
-Background Image: Change the href attribute in the &lt;image src="image.jpg"&gt; tag to your desired image URL.
+Background Image: Change the href attribute in the &lt;image&gt; tag to your desired image URL.
 
 ## Files
 
