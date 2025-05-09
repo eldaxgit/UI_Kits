@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Banner</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-neutral-900 font-sans leading-normal tracking-normal flex items-center justify-center min-h-screen"
+  >
+    <!-- Banner Container -->
+    <div
+      class="w-[80vw] h-[80vh] flex flex-col justify-center items-center rounded-lg shadow-lg p-4 relative"
+      style="
+        background: radial-gradient(ellipse, red 10%, black 80%);
+        font-family: 'Montserrat', sans-serif;
+      "
+    >
+      <!-- Full-Width Header Text -->
+      <div
+        class="absolute top-8 w-full text-center text-white text-4xl md:text-6xl font-extrabold"
+        style="text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7)"
+      >
+        LESS NOISE. <span class="text-red-600">CLEANER SOUND.</span>
+      </div>
+
+      <!-- Main Content (Centered) -->
+      <div class="flex flex-col items-center justify-center mb-6">
+        <img src="headphones.webp" alt="Headphones" class="h-80 md:h-96" />
+        <p class="text-white text-lg font-light text-center mt-2">
+          Industry-leading noise cancellation
+        </p>
+        <button
+          class="mt-6 px-8 py-2 bg-white text-black text-sm font-normal rounded-full shadow-md hover:bg-gray-200 transition"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <!-- Left Column (Icons) - Positioned under the button on mobile -->
+      <div
+        class="flex flex-col mb-6 items-center space-y-4 md:absolute md:left-4 md:bottom-4 md:flex-col md:items-center md:space-y-4"
+      >
+        <div class="flex flex-col items-center">
+          <img src="sound.svg" alt="Icon 1" class="w-8 h-8" />
+          <p class="text-white text-xs">3D Sound</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="equalizer.svg" alt="Icon 2" class="w-8 h-8" />
+          <p class="text-white text-xs">Parametric EQ</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="dynamic.svg" alt="Icon 3" class="w-8 h-8" />
+          <p class="text-white text-xs">Dynamic drivers</p>
+        </div>
+      </div>
+
+      <!-- Brand Name - Centered on mobile and bottom-right on desktop -->
+      <div
+        class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-xs font-light md:bottom-4 md:left-auto md:right-4 md:transform-none"
+      >
+        www.brandname.com
+      </div>
+    </div>
+  </body>
+</html>
