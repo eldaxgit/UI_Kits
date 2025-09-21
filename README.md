@@ -18,7 +18,7 @@ Each UI kit includes:
 
 ### 📰 Responsive Landiing page with Tailwind CSS
 
-A simple, modern, and responsive landing page template designed using HTML, CSS, and Tailwind CSS. featuring a dynamic, irregularly cropped image created with an SVG mask, along with a subscription form, to provide a distinctive and engaging user experience. This template can be easily customized for various use cases such as newsletters, marketing pages, or promotional content.
+A simple, modern, and responsive landing page template designed using HTML, CSS, and Tailwind CSS. Featuring a dynamic, irregularly cropped image created with an SVG mask, along with a subscription form, to provide a distinctive and engaging user experience. This template can be easily customized for various use cases such as newsletters, marketing pages, or promotional content.
 
 ## 📷 Preview
 
