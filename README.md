@@ -23,6 +23,7 @@ A simple, modern, and responsive landing page template designed using HTML, CSS,
 ## 📷 Preview
 
 ![Landing page Preview](./landing_page/preview.png)
+
 📁 [`/landing_page`](./landing_page)
 
 ---
@@ -44,8 +45,8 @@ This is a simple, responsive webpage that features a navigation bar, a set of re
 
 ## 📷 Preview
 
-![UI Tailwind CSS Preview](./ui-tailwind/preview.png)
-📁 [`/ui-tailwind`](./ui-tailwind)
+![UI Tailwind CSS Preview](./responsive_cards/preview.png)
+📁 [`/responsive_cards`](./responsive_cards)
 
 ---
 
