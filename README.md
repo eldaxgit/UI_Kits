@@ -27,6 +27,17 @@ A simple, modern, and responsive landing page template designed using HTML, CSS,
 
 ---
 
+### 📰 Responsive Web Banner
+
+A sleek, responsive promotional banner built with HTML and TailwindCSS, designed to showcase high-end headphones with a bold visual aesthetic and modern UI components — perfect for showcasing premium audio products. Includes custom-designed icons and a bold call to action.
+
+## 📷 Preview
+
+![Web Banner Preview](./web_banner/preview.png)
+📁 [`/web_banner`](./web_banner)
+
+---
+
 ### 🖌️ Responsive Cards with Tailwind CSS
 
 This is a simple, responsive webpage that features a navigation bar, a set of responsive cards, and a modal. The project is built using Tailwind CSS and JavaScript. The layout adjusts seamlessly for mobile, tablet, and desktop views.
